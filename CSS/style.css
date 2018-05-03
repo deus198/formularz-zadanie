@@ -1,0 +1,22 @@
+div {
+    
+    padding: 20px;
+    text-align: center;
+    line-height: 35px
+}
+
+div#form {
+    display:block;
+    width: 500px;
+    height: 500px;
+    background-color: aqua;
+    
+}
+
+div h1 {
+    text-align: center;
+    color:#308db7;
+    
+    font-size: 40px;
+}
+

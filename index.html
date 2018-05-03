@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <div id="form">
+
+        <h1>Formularz uczestników:</h1>
+
+        <form action="https://formspree.io/deus198@yahoo.pl" method="POST">
+            <label for="name" class="name"><b>Imię:</b></label>
+            <input type="text" id="name" name="name" placeholder="wpisz imię"><br>
+            <label for="surname" class="surname"><b>Nazwisko:</b></label>
+            <input type="text" id="surname" name="surname" placeholder="wpisz nazwisko"><br>
+            <label for="email" class="email"><b>e-mail:</b></label>
+            <input type="email" id="email" name="email" placeholder="podaj e-mail"><br>
+            <label for="phone" class="phone"><b>telefon:</b></label>
+            <input type="tel" id="phone" name="phone" placeholder="podaj numer"><br>
+
+            <label for="city" class="city"><b>Miasto:</b></label><br>
+            <select id="city">
+        <option name="city" value="Kraków">Kraków</option>
+        <option name="city"value="Warszawa">Warszawa</option>
+        <option name="city" value="Gdańsk">Gdańsk</option>
+        </select><br>
+
+            <b>Płeć:</b><br>
+            <b>Mężczyzna</b><input type="radio" name="sex" value="male">
+            <b>Kobieta</b><input type="radio" name="sex" value="female"><br>
+
+            <label for="agree"><b>Zgoda na użycie danych osobowych:</b></label>
+            <input type="checkbox" id="agree" name="permission" value="agree"><br>
+
+            <textarea name="msg" id="msg" maxlength="1000" placeholder="uwagi"></textarea><br>
+
+            <input type="submit" id="submit" value="Wyślij">
+
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
